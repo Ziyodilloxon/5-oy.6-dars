@@ -43,4 +43,29 @@ body {
   background-color: #5b5959;
   position: relative;
   top: 10px;
+}
+
+#lastDiv {
+  position: relative;
+  bottom: -268px;
+}
+#lastDiv h1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: #5a5656;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.task-list button {
+  width: 70px;
+  height: 30px;
+  background-color: #5b5959;
+  color: #d3d2d2;
+  font-family: sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

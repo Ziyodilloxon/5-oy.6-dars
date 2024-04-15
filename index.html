@@ -38,6 +38,36 @@
         </p>
       </div>
     </div>
+    <div id="lastDiv">
+      <h1>Todo list</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          name="new-task-input"
+          id="new-task-input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" id="new-task-submit" value="Add task" />
+      </form>
+      <section class="task-list">
+        <div id="tasks">
+          <div class="task">
+            <div class="content">
+              <input
+                type="text"
+                class="text"
+                value="birinchi inputni tog'irlay olmadim"
+                readonly
+              />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <script src="./js/index.js"></script>
   </body>
 </html>
